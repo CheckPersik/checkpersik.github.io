@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8" />
+      <title>QA</title>
+      <link rel="stylesheet" href="css/style.css">
+      <meta name="viewport" content = "width=device-width, initial-scale = 1">
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"> </script>
+    </head>
+
+   <body >
+
+     <!--header-->
+
+     <header class="header">
+      <div class="container">
+        <div class="header__inner">
+
+          <div class="user">
+            <div class="user_avatar">
+              <img src="images/AVATAR.jpg" alt="тут должна быть аватарка">
+            </div>
+            <div class="user_containt">
+              <div class="user_name">Айрат <br> Абдуллин</div>
+              <div class="user_prof">QA Engineer</div>
+            </div>
+          </div>
+
+          <nav class="nav" id="nav">
+            
+            <a class="nav_link" href="#">Обо мне</a>
+           
+            <a class="nav_link nav_link--btn" href="#" data-modal="#modal_hire_me"  >Связаться</a>
+          </nav>
+
+
+          <button class="burger" type="button" id="navToggle">
+            <img class="burger_icon" src="images/burger.webp" alt="">
+          </button>
+
+        </div>
+  
+
+     </header>
+       <!--intro-->
+
+     <section class="intro">
+      <div class="container">
+
+        <div class="intro__inner">
+          <div class="intro_contetnt">
+            <h2 class="intro_subtitle"> Привет я</h2>
+            <h1 class="intro_title"> Айрат </h1>
+            <div class="intro_text">QA Engineer</div>
+
+            <div class="social">
+              <a class="social__link" href="#">
+                <img class="socail_img" src="images/Facebook.png" alt="">
+               </a>
+                <a class="social__link" href="#">
+                <img class="socail_img" src="images/Instagram.png" alt="">
+               </a>
+                <a class="social__link" href="#">
+                <img class="socail_img" src="images/Telegram.png" alt="">
+               </a>
+                <a class="social__link" href="https://vk.com/feed" >
+                 <img class="socail_img" src="images/VK.png" alt="">
+                </a>
+                <a class="social__link" href="#">
+                  <img class="socail_img" src="images/WhatsApp.png" alt="">
+               </a>
+               
+               
+            </div>
+
+            <a class="btn"  href="#" data-modal="#modal_hire_me">Связаться</a>
+            <button class="btn" type="button" data-modal="#modal_resume">Резюме</button>
+            <img class="intro__photo" src="images/1.jpg" alt="">
+          </div> <!--/into-content-->
+
+          
+
+        </div> <!--/intro_inner-->
+      </div> <!--/container-->
+
+
+    </section><!--/intro-->
+
+      <!--about-->
+
+      <section class="about">
+        <div class="container">
+          <div class="about__inner">
+
+            <div class="about-photo">
+              <img class="img" src="images/540.jpg" alt="котофото">
+            </div>
+            <div class="about-content">
+
+              <h3 class="tittle">Обо мне</h3>
+              <h2 class="bigtittle">Кто я </h2>
+              <div class="about-text">
+                <p>С этим котом я познакомилась два года назад. Мама и папа подарили мне его на день рождения. Он был очень милым и ласковым котенком. Ночами Филя пробирался ко мне в комнату и удобно устраивался на моей шее. Когда мама приходила будить меня в школу, кот начинал топтать меня лапками и громко урчать, от этого я быстро просыпалась.</p>
+                <p>Говорят, что все кошки приземляются на лапы, но к моему котику это не относится. Он не только часто падает, но и плохо прыгает. Уже не раз мы посещали ветеринара с вывихом лап и поврежденными внутренними органами.</p>
+                <p>Все мы прекрасно знаем, что кошки очень умные и своенравные животные. Так можно сказать обо всех из породы кошачьих. Но у нас дома живет «исключение из правил».</p>
+              </div>
+              
+            </div><!--about-content-->
+
+          </div><!--about__inner-->
+        </div><!--container-->
+      </section>
+      <!--/reviews-->
+      <div class="reviews">
+        <div class="container">
+
+          <div class="reviews__item">
+            <div class="reviews-text">
+              <p>Шерсть... Мама Мия, Дева Мария, Санта Лючия - причитаю я очередной раз, подметая квартиру. Это просто кОшмар))) Его шерсть везде! Я кота чешу постоянно. И если начать собирать шерсть с чесалки, за месяц можно навязать нам всем по паре носков.
+              </p>
+              <p>
+                Есть такая примета... Питомцы, имеющие «золотую» шерстку, притягивают богатство. Да! Я согласна! Мы стали богаче на одного рыжего котёнка, который принёс в дом радость и веселье. Животное в доме сближает членов семьи! Кот Солярис с нами чуть больше года, но сколько эмоций он нам дал - не перечесть...
+              </p>
+            </div>
+            <div class="reviews__author">
+              <img class="reviews__photo" 
+              src="images/103.png" alt="pers">
+              <div class="reviews-name">Edwards M. Brooks</div>
+              <div class="reviews-company">CATApple</div>
+              <div class="reviews-rating"></div>
+              <img class="reviews__star" src="images/star.png" width="13px" height="13px" alt="">
+              <img class="reviews__star" src="images/star.png" width="13px" height="13px" alt="">
+              <img class="reviews__star" src="images/star.png" width="13px" height="13px" alt="">
+              <img class="reviews__star" src="images/star.png" width="13px" height="13px" alt="">
+              <img class="reviews__star reviews__star--unactive" src="images/star.png" width="13px" height="13px" alt="">
+            </div>
+          </div><!--reviews__item-->
+
+        </div><!--container-->
+      </div><!--/reviews-->
+  
+ <!--footer-->
+
+ <footer class="footer">
+  <div class="container">
+    <div class="footer__inner">
+      <div class="footer__credits">
+        <div class="footer__copyright">
+          c 2023 UI555 Free 
+        </div>
+        <div class="footer_social">
+          <a class=""  href="#" target="_blank">
+            <img src="images/Facebook.png" alt="" width="24px">
+          </a>
+          <a class=""  href="#" target="_blank">
+            <img src="images/Instagram.png" alt="" width="24px">
+          </a>
+          <a class=""  href="#" target="_blank">
+            <img src="images/Telegram.png" alt="" width="24px">
+          </a>
+          <a class=""  href="#" target="_blank">
+            <img src="images/VK.png" alt="" width="24px">
+          </a>
+          <a class=""  href="#" target="_blank">
+            <img src="images/WhatsApp.png" alt="" width="24px">
+          </a>
+        </div>
+
+      </div><!--/footer__credits-->
+
+      <nav class="footer__nav">
+        
+        <a class="footer__nav-link footer__nav-link--btn" data-modal="#modal_hire_me" href="">Контакты</a>
+      </nav>
+
+    </div><!--/footer__inner-->
+  </div><!--/conatienr-->
+</footer><!--/footer-->
+
+
+
+<!--Modals 1-->
+
+
+
+ <!--Modals 2-->
+
+<div class="modal" id="modal_resume" >
+<div class="modal__dialog">
+
+  <button class="m-close" type="button" data-close>
+    <img src="images/m-close.png" alt="CLOSE">
+  </button>
+
+  <div class="modal_content">
+    <h3 class="modal__title text-center">RESUME</h3>
+    <div class="text-center">
+    <a class="btn btn--thin" href="#">DOWNLOAD PDF</a>
+    <a class="btn btn--thin" href="#">PRINT</a>
+    </div>
+
+    <div class="timeline">
+
+      <div class="timeline-col timeline-col--left ">
+        <h4 class="timeline__title ">ОПЫТ</h4>
+
+        <div class="timeline-item">
+          <time class="timeline__date" datetime="04.06.2022">
+            2022<b></b>
+          </time>
+          <h5 class="timeline__subtitle">Freelancer</h5>
+          <div class="timeline__position">Junior QA</div>
+          <div class="timeline-text">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus magni eveniet sequi! Dolor mollitia, ullam voluptas, voluptate nisi cum temporibus alias quae ab id libero nemo atque, facilis totam unde!
+          </p></div>
+          
+        </div>
+
+        <div class="timeline-item">
+          <time class="timeline__date" datetime="04.06.2022">
+            2022-<b>Present</b>
+          </time>
+          <h5 class="timeline__subtitle">Freelancer</h5>
+          <div class="timeline__position">Art DIRECTOR</div>
+          <div class="timeline-text">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus magni eveniet sequi! Dolor mollitia, ullam voluptas, voluptate nisi cum temporibus alias quae ab id libero nemo atque, facilis totam unde!
+          </p></div>
+          
+        </div>
+            <div class="timeline-item">
+          <time class="timeline__date" datetime="04.06.2022">
+            2022-<b>Present</b>
+          </time>
+          <h5 class="timeline__subtitle">Freelancer</h5>
+          <div class="timeline__position">Art DIRECTOR</div>
+          <div class="timeline-text">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus magni eveniet sequi! Dolor mollitia, ullam voluptas, voluptate nisi cum temporibus alias quae ab id libero nemo atque, facilis totam unde!
+          </p></div>
+          
+        </div>
+        
+      </div>
+
+
+      <div class="timeline-col timeline-col--right">
+        <h4 class="timeline__title">ХАРДСКИЛЫ</h4>
+        <div class="timeline-item">
+          <time class="timeline__date" datetime="04.06.2022">
+            <b></b>
+          </time>
+          <h5 class="timeline__subtitle">Postman</h5>
+          <div class="timeline__position">Для тестирования API и написания автотестов</div>
+          <div class="timeline-text">
+            <p>
+          </p></div>
+        </div>
+
+        <div class="timeline-item">
+          <time class="timeline__date" datetime="04.06.2022">
+            <b></b>
+          </time>
+          <h5 class="timeline__subtitle">Developer Tools в браузере</h5>
+          <div class="timeline__position">Для тестирования front-части web-приложений</div>
+          <div class="timeline-text">
+            <p>
+          </p></div>
+        </div>
+
+        <div class="timeline-item">
+          <time class="timeline__date" datetime="04.06.2022">
+            <b></b>
+          </time>
+          <h5 class="timeline__subtitle">MySQL</h5>
+          <div class="timeline__position">Просмотр данных в БД и написание SQL-запросов</div>
+          <div class="timeline-text">
+            <p>
+          </p></div>
+        </div>
+        <div class="timeline-item">
+          <time class="timeline__date" datetime="04.06.2022">
+            <b></b>
+          </time>
+          <h5 class="timeline__subtitle">Charles</h5>
+          <div class="timeline__position">Тестирование front-end / back-end</div>
+          <div class="timeline-text">
+            <p>
+          </p></div>
+        </div>
+
+        <h4 class="timeline__title">Skills</h4>
+        <div class="progress-bar">
+          <div class="progress-bar__item">
+            <div class="progress-bar-left">
+              <div class="progress-bar-title">
+               UX Дизайнер
+              </div>
+           </div>
+          
+           <div class="progress-bar-right">
+             <div class="progress-bar__bar">
+               <div class="progress-bar__progress" style="width:90%"></div>
+             </div>
+          </div>
+        </div>
+        
+
+        
+          <div class="progress-bar__item">
+            <div class="progress-bar-left">
+              <div class="progress-bar-title">
+               UX Кодер
+              </div>
+           </div>
+          
+           <div class="progress-bar-right">
+             <div class="progress-bar__bar">
+               <div class="progress-bar__progress" style="width:40%"></div>
+             </div>
+          </div>
+        </div>
+        
+
+        
+          <div class="progress-bar__item">
+            <div class="progress-bar-left">
+              <div class="progress-bar-title">
+               UX Геймер
+              </div>
+           </div>
+          
+           <div class="progress-bar-right">
+             <div class="progress-bar__bar">
+               <div class="progress-bar__progress" style="width:70%"></div>
+             </div>
+          </div>
+        </div>
+
+        </div><!--/progress-bar-->
+
+
+        
+
+      </div><!--/timeline-col-->
+
+    </div><!--/timeline-->
+
+    <div class="text-center">
+      <a class="btn" href="#">Hire me</a>
+    </div>
+</div><!---/modal_content-->
+
+
+
+
+</div><!--/modal-dialog-->
+</div><!--/modal  2-->
+
+
+
+    <!--Modals 3-->
+
+<div class="modal"  id="modal_hire_me" >
+<div class="modal__dialog modal__dialog--sm">
+
+  <button class="m-close" type="button" data-close>
+    <img src="images/m-close.png" alt="CLOSE">
+  </button>
+
+    <div class="contact">
+      <div class="contact-left">
+        <h3 class="modal__title mb-0">LET'S TALK</h3>
+        <div class="modal__subtitle">CALL ME OR SEND ME A REQUESt</div>
+        <ul class="contact__info">
+          <li  class="contact__info-item" >
+            <img class="s12 contact__info-right" src="images/phone.png" alt="">
+            (2200)0005500</li>
+          <li  class="contact__info-item" >
+            <img class="s12 contact__info-right" src="images/mail.png" alt="">
+            persik@mail.p</li>
+        </ul>
+
+        <form class="form" action="/" method="post">
+          <div class="form__group">
+            <label class="form__lable" for="input-email">Adress e-mail</label>
+            <input class="form__input" type="text" 
+              placeholder="Adress e-mail" name="input-email" id="input-email">
+          </div>
+
+          <div class="form__group">
+            <label class="form__lable" for="input-text">Request</label>
+         <textarea class="form__textarea" name="input-text"
+          id="input-text" placeholder="Type you Request..." ></textarea>
+          </div>
+         </form>
+          <div class="text-right" >
+           <button class="btn" >send</button>
+          </div>
+      </div>
+      
+      <div class="contact-right">
+
+    </div>
+    </div>
+    
+
+
+
+
+
+</div><!--/modal-dialog-->
+</div><!--/modal  3-->
+
+
+    <!--JS-->
+<script src=""></script>
+<script src="js/app.js"></script>
+
+  </body>
+</html>
